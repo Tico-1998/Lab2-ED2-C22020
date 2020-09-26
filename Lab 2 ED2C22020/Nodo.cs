@@ -49,6 +49,9 @@ public class Nodo
 					padre.hijo[0] = (contadornodos - 2);
 					padre.hijo[1] = (contadornodos - 1);
 					padre.valor[0] = nodo.valor[2];
+					padre.padre = true;
+					nodo.padre = false;
+					nodohermano.padre = false;
 					nodo.valor[2] = null;
 				}
 				else
