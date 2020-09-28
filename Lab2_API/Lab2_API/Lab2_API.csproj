@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Lab 2 ED2C22020\Lab 2 ED2C22020\Lab2_Nodo.csproj" />
+    <ProjectReference Include="..\Movies\Movies.csproj" />
   </ItemGroup>
 
 
